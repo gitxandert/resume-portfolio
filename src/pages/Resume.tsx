@@ -39,7 +39,7 @@ export default function Resume() {
       ))}
 
       <a
-        href="Xander_Toth_Software_Engineering_Resume.docx"
+        href={'${import.meta.env.BASE_URL}Xander_Toth_Software_Engineering_Resume.docx'}
         className="dark:bg-indigo-500 bg-rose-500 rounded dark:text-cyan-200 text-red-100 inline-block mt-8 px-4 py-2 transform transition-all duration-300 ease-out hover:scale-103 hover:shadow-lg"
         target="_blank"
       >

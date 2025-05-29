@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "visualizer",
+    "name": "ezvz",
+    "year": 2025,
+    "tags": ["C++", "OpenGL", "ImGui"],
+    "description": "Desktop app that maps real-time audio events to GLSL-driven animations.",
+    "image": "/visualizer-thumb.png",
+    "repo": "https://github.com/gitxandert/ezvz.git"
+  },
+    {
+    "slug": "ml+notation",
+    "name": "mlx",
+    "year": 2025,
+    "tags": ["Max 9, machine learning, music notation software"],
+    "description": "Max app that generates musical notation from machine-learned data.",
+    "image": "/mlx-thumb.png",
+    "repo": "https://github.com/gitxandert/mlx"
+  },
+    {
+    "slug": "sonfication-website",
+    "name": "bodies",
+    "year": 2023,
+    "tags": ["RNBO, JavaScript, p5.js"],
+    "description": "Interactive website that sonifies RNBO instruments with astronomical data.",
+    "image": "/bodies-thumb.png",
+    "repo": "https://github.com/gitxandert/bodies",
+    "link": "https://gitxandert.github.io/bodies/"
+  },
+  {
+    "slug": "audiovisual-installation",
+    "name": "bug garden",
+    "year": 2023,
+    "tags": ["Max, Processing, Computer Vision"],
+    "description": "Audiovisual installation that incorporates computer vision for blob and color tracking.",
+    "image": "/bug-thumb.png",
+    "repo": "https://github.com/gitxandert/bug-garden",
+    "demo": "https://www.youtube.com/watch?v=LKVbb8Y3uPg"
+  },
+  {
+    "slug": "midi-parser",
+    "name": "MIDI Parser",
+    "year": 2024,
+    "tags": ["C++"],
+    "description": "Console app that parses delta-times, interprets MIDI messages, and lists track metadata.",
+    "image": "/midi-thumb.png",
+    "repo": "https://github.com/gitxandert/midi-parser"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "Alexander Toth",
+  "title": "Software Engineer · Audio-Visual Programmer · Composer",
+  "summary": "C++ / OpenGL developer with a background in computer music and real-time graphics.",
+  "skills": ["C++", "OpenGL", "React", "Python", "Java", "SQL", "Audio DSP"],
+  "experience": [
+    {
+      "company": "Indie Projects",
+      "role": "Lead Developer",
+      "years": "2023 – present",
+      "bullets": [
+        "Built a real-time audio-reactive visualizer in C++/OpenGL, sustaining 144 FPS.",
+        "Authored cross-platform audio engine (Miniaudio + GLFW + ImGui)."
+      ]
+    },
+    {
+      "company": "Indiana University",
+      "role": "Adjunct Instructor — Intro to Computer Music",
+      "years": "2024",
+      "bullets": [
+        "Designed curriculum, taught Ableton Live and basic DSP to undergraduate and graduate students."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Indiana University Jacobs School of Music",
+      "degree": "M.M. Composition & Computer Music Composition",
+      "years": "2021 – 2023"
+    },
+    {
+        "school": "University of Iowa",
+        "degree": "B.M. Vocal Performance with Licensure to Teach",
+        "years": "2014 - 2018"
+    }
+  ]
+}

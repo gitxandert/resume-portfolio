@@ -1,11 +1,11 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AppRoutes from "./routes";
 import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="min-h-screen flex flex-col dark:bg-cyan-400 bg-rose-950 transition-colors duration-600 ease-out">
         {/* NAVBAR → always at top, sticky if you scroll */}
         <Navbar />
@@ -15,6 +15,6 @@ export default function App() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }

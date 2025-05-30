@@ -5,7 +5,7 @@ import data from "../data/resume.json";
 export default function Resume() {
   return (
     <section className="w-full max-w-3xl mx-auto p-8 text-blue-950 dark:text-red-300 change-color">
-      <SectionHeader>Skills</SectionHeader>
+      <SectionHeader className="text-blue-950 dark:text-red-300 change-color">Skills</SectionHeader>
       <ul className="flex flex-wrap gap-2 mb-8">
         {data.skills.map(s => (
           <li
@@ -17,7 +17,7 @@ export default function Resume() {
         ))}
       </ul>
 
-      <SectionHeader>Experience</SectionHeader>
+      <SectionHeader className="text-blue-950 dark:text-red-300 change-color">Experience</SectionHeader>
       {data.experience.map(job => (
         <div>
         <Card className="mb-5 bg-blue-950 dark:bg-rose-400 change-color" titleClassName="text-cyan-100 dark:text-red-100 change-color" key={job.role} title={`${job.role} — ${job.company}`}>
@@ -31,7 +31,7 @@ export default function Resume() {
         </div>
       ))}
 
-      <SectionHeader className="mt-10">Education</SectionHeader>
+      <SectionHeader className="mt-10 text-blue-950 dark:text-red-300 change-color">Education</SectionHeader>
       {data.education.map(ed => (
         <p key={ed.school} className="mb-2 text-blue-950 dark:text-rose-200">
           <strong>{ed.school}</strong> — {ed.degree} ({ed.years})

@@ -33,7 +33,7 @@ export default function DarkModeToggle({
         <motion.img
           key={mode}                                // forces remount on mode change
           src={mode === 'dark' ? Sun : Moon }        // pick the SVG
-          alt={mode === 'dark' ? 'Moon icon' : 'Sun icon'}
+          alt={mode === 'dark' ? 'Sun icon' : 'Moon icon'}
           className="h-8 w-auto"
           initial={{ opacity: 0, rotate: mode === 'dark' ? -90 : 90 }}
           animate={{ opacity: 1, rotate: 0 }}

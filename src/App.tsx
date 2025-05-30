@@ -10,7 +10,7 @@ export default function App() {
         {/* NAVBAR → always at top, sticky if you scroll */}
         <Navbar />
         {/* MAIN CONTENT → grows to fill remaining space */}
-        <main className="flex-1 w-full px-4 sm:px-6 pt-12 pb-6 overflow-hidden">
+        <main className="flex-1 w-full pt-12 pb-6 overflow-hidden">
 
           <AppRoutes />
         </main>

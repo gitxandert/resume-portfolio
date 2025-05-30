@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 
 export default function Projects() {
   return (
-    <section className="max-w-4xl mx-auto p-8">
+    <section className="w-full max-w-4xl mx-auto p-8">
       <SectionHeader className="text-blue-950 dark:text-red-300 change-color">Projects</SectionHeader>
       <div className="grid sm:grid-cols-2 gap-6">
         {data.map(p => (

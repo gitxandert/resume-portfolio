@@ -2,7 +2,7 @@ import SectionHeader from "../components/SectionHeader";
 
 export default function Contact() {
   return (
-    <section className="max-w-xl mx-auto p-8 text-center">
+    <section className="w-full max-w-xl mx-auto p-8 text-center">
       <SectionHeader className="text-blue-950 dark:text-red-300 change-color">Contact</SectionHeader>
 
       {/* outer: 1rem between each group */}

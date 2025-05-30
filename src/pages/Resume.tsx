@@ -4,7 +4,7 @@ import data from "../data/resume.json";
 
 export default function Resume() {
   return (
-    <section className="max-w-3xl mx-auto p-8 text-blue-950 dark:text-red-300 change-color">
+    <section className="w-full max-w-3xl mx-auto p-8 text-blue-950 dark:text-red-300 change-color">
       <SectionHeader>Skills</SectionHeader>
       <ul className="flex flex-wrap gap-2 mb-8">
         {data.skills.map(s => (

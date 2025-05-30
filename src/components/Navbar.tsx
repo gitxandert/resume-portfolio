@@ -81,7 +81,7 @@ export default function Navbar() {
   }
 
   // pick which SVG to show at any moment
-  const logoSrc = logoMode === "dark" ? LogoLight : LogoDark
+  const logoSrc = logoMode === "dark" ? LogoDark : LogoLight
 
   const prevPath = useRef(pathname)
   useEffect(() => {
@@ -96,12 +96,6 @@ export default function Navbar() {
       className="sticky top-0 inset-x-0 bg-neutral-900 text-white px-6 py-3 flex items-center justify-center z-50"
       style={{ perspective: 800 }}
     >
-      <DarkModeToggle
-        mode={mode}
-        onToggle={handleThemeToggle}
-        className="absolute top-1 right-6 transition-transform hover:scale-110"
-      />
-
       <motion.img
         src={logoSrc}
         alt="Logo"
@@ -122,14 +116,20 @@ export default function Navbar() {
             onClick={handleNavClick}
             className={
               pathname === l.to
-                ? "font-semibold border-b-2 dark:border-indigo-400 border-red-400 dark:text-cyan-200 text-red-200 inline-block transform transition-all duration-300 ease-out hover:scale-105"
-                : "hover:dark:text-indigo-300 hover:text-rose-300 text-white inline-block transform transition-all duration-300 ease-out hover:scale-105"
+                ? "font-semibold border-b-2 border-indigo-400 dark:border-red-400 text-cyan-200 dark:text-red-200 inline-block transform transition-all duration-300 ease-out hover:scale-105"
+                : "hover:text-indigo-300 hover:dark:text-rose-300 text-white inline-block transform transition-all duration-300 ease-out hover:scale-105"
             }
           >
             {l.label}
           </Link>
         ))}
       </div>
+
+      <DarkModeToggle
+        mode={mode}
+        onToggle={handleThemeToggle}
+        className="relative left-5 w-auto cursor-pointer transition-transform hover:scale-110"
+      />
     </nav>
   )
 }

@@ -4,7 +4,7 @@ export default function NotFound() {
       <div>
         <h1 className="text-6xl font-bold mb-4">404</h1>
         <p className="mb-6">Page not found.</p>
-        <a href="/" className="text-indigo-400 hover:underline">
+        <a href="`${import.meta.env.BASE_URL}`" className="text-indigo-400 dark:text-rose-600 hover:underline">
           Go home
         </a>
       </div>

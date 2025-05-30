@@ -3,7 +3,7 @@ import SectionHeader from "../components/SectionHeader";
 export default function Contact() {
   return (
     <section className="max-w-xl mx-auto p-8 text-center">
-      <SectionHeader className="dark:text-blue-950 text-red-300 change-color">Contact</SectionHeader>
+      <SectionHeader className="text-blue-950 dark:text-red-300 change-color">Contact</SectionHeader>
 
       {/* outer: 1rem between each group */}
       <div className="space-y-4">  
@@ -33,7 +33,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <p className="dark:text-blue-950 text-rose-200 change-color">also...</p>
+        <p className="text-blue-950 dark:text-rose-200 change-color">also...</p>
 
         <div className="space-y-1">
           <p className="contact-label">Check out my <strong>GitHub</strong>:</p>

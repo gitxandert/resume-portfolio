@@ -32,7 +32,7 @@ export default function DarkModeToggle({
       <AnimatePresence mode="wait" initial={false}>
         <motion.img
           key={mode}                                // forces remount on mode change
-          src={mode === 'dark' ? Moon : Sun }        // pick the SVG
+          src={mode === 'dark' ? Sun : Moon }        // pick the SVG
           alt={mode === 'dark' ? 'Moon icon' : 'Sun icon'}
           className="h-8 w-auto"
           initial={{ opacity: 0, rotate: mode === 'dark' ? -90 : 90 }}

@@ -12,23 +12,23 @@
 }
 
 .contact-label {
-  @apply dark:text-blue-950 text-red-300 transition-colors duration-800 ease-out;
+  @apply text-blue-950 dark:text-red-300 transition-colors duration-800 ease-out;
 }
 .contact-label strong {
-  @apply dark:text-indigo-800 text-red-200 transition-colors duration-800 ease-out;
+  @apply text-indigo-800 dark:text-red-200 transition-colors duration-800 ease-out;
 }
 .contact-link {
   @apply 
     inline-block                  /* so transforms have layout to work with */
     text-lg 
     font-semibold 
-    dark:text-indigo-500 
-    text-rose-500 
+    text-indigo-500 
+    dark:text-rose-500 
 
     /* tell Tailwind to animate transforms (and optionally colors too) */
     transform                      /* only needed on Tailwind v2—v3 scale utilities include this */
     transition-transform           /* animate transform changes */
-    duration-300                   /* or whichever valid duration you prefer */
+    duration-300                  
     ease-out
 
     hover:underline 

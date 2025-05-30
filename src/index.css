@@ -14,7 +14,6 @@
     /* Support iPhone safe area insets */
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
-    background: #f00; /* for debug, pick a color */
   }
   *, *::before, *::after {
   box-sizing: border-box;

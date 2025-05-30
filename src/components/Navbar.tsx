@@ -96,7 +96,7 @@ export default function Navbar() {
   }, [pathname])
 
   return (
-  <nav className="sticky top-0 inset-x-0 bg-neutral-900 text-white z-50">
+  <nav className="w-full sticky top-0 inset-x-0 bg-neutral-900 text-white z-50">
     {/* Centered content */}
     <div className="w-full max-w-4xl mx-auto flex items-center justify-between py-3 px-4 sm:px-8">
       <motion.img
@@ -146,7 +146,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-70 flex flex-col items-center justify-start pt-20 sm:hidden">
+        <div className="inset-0 z-50 bg-black bg-opacity-70 flex flex-col items-center justify-start pt-20 sm:hidden">
           <div className="flex flex-col items-center gap-8">
             {links.map((l) => (
               <Link
@@ -171,7 +171,7 @@ export default function Navbar() {
           {/* Optional: close overlay on click outside */}
           <button
             onClick={() => setMenuOpen(false)}
-            className="absolute top-4 right-6 text-white text-3xl"
+            className="top-4 right-6 text-white text-3xl"
             aria-label="Close menu"
           >
             ×

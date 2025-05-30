@@ -14,6 +14,7 @@ const links = [
 
 export default function Navbar() {
   const { pathname } = useLocation()
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // ─── 1) ROTATION MOTION VALUE ───────────────────────────────
   const rotateY      = useMotionValue(0)
@@ -69,7 +70,10 @@ export default function Navbar() {
   }
 
   // ─── 6) HANDLERS ───────────────────────────────────────────────
-  const handleNavClick = () => doFlip(null)
+  const handleNavClick = () => {
+    doFlip(null);
+    setMenuOpen(false);
+  }
 
   const handleThemeToggle = () => {
     // swap the _site theme_ immediately:
@@ -130,6 +134,41 @@ export default function Navbar() {
         onToggle={handleThemeToggle}
         className="relative left-5 w-auto cursor-pointer transition-transform hover:scale-110"
       />
+
+      {/* Mobile Menu Overlay */}
+      {menuOpen && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-70 flex flex-col items-center justify-start pt-20 sm:hidden">
+          <div className="flex flex-col gap-8">
+            {links.map((l) => (
+              <Link
+                key={l.to}
+                to={l.to}
+                onClick={handleNavClick}
+                className={
+                  pathname === l.to
+                    ? "text-xl font-semibold border-b-2 border-indigo-400 text-cyan-200"
+                    : "text-xl text-white"
+                }
+              >
+                {l.label}
+              </Link>
+            ))}
+            <DarkModeToggle
+              mode={mode}
+              onToggle={handleThemeToggle}
+              className="mx-auto mt-4 w-auto cursor-pointer transition-transform hover:scale-110"
+            />
+          </div>
+          {/* Optional: close overlay on click outside */}
+          <button
+            onClick={() => setMenuOpen(false)}
+            className="absolute top-4 right-6 text-white text-3xl"
+            aria-label="Close menu"
+          >
+            ×
+          </button>
+        </div>
+      )}
     </nav>
   )
 }

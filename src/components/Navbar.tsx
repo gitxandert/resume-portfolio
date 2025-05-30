@@ -97,14 +97,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className="sticky top-0 inset-x-0 bg-neutral-900 text-white px-6 py-3 flex items-center justify-center z-50"
+      className="sticky top-0 inset-x-0 bg-neutral-900 text-white px-6 py-3 flex items-center justify-between z-50"
       style={{ perspective: 800 }}
     >
       <motion.img
         src={logoSrc}
         alt="Logo"
         onClick={handleNavClick}
-        className="relative -left-6 h-8 w-auto hover:scale-110 cursor-pointer"
+        className="relative h-8 w-auto hover:scale-110 cursor-pointer"
         style={{
           // bind our rotating MotionValue into the CSS transform
           rotateY,
@@ -112,7 +112,17 @@ export default function Navbar() {
         }}
       />
 
-      <div className="flex items-center gap-6">
+      <button
+        className="flex flex-col gap-1 sm:hidden ml-auto p-2"
+        aria-label="Open menu"
+        onClick={() => setMenuOpen((o) => !o)}
+      >
+        <span className="block w-6 h-0.5 bg-white rounded transition-all"></span>
+        <span className="block w-6 h-0.5 bg-white rounded transition-all"></span>
+        <span className="block w-6 h-0.5 bg-white rounded transition-all"></span>
+      </button>
+
+      <div className="hidden sm:flex items-center gap-6">
         {links.map((l) => (
           <Link
             key={l.to}
@@ -132,7 +142,7 @@ export default function Navbar() {
       <DarkModeToggle
         mode={mode}
         onToggle={handleThemeToggle}
-        className="relative left-5 w-auto cursor-pointer transition-transform hover:scale-110"
+        className="relative w-auto cursor-pointer transition-transform hover:scale-110"
       />
 
       {/* Mobile Menu Overlay */}

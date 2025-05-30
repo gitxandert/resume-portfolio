@@ -6,8 +6,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <Router basename={import.meta.env.BASE_URL}>
-      <div className="min-h-dvh w-full min-w-0 flex flex-col bg-cyan-400 dark:bg-rose-950 change-color">
-
+      <div className="min-h-dvh w-full flex flex-col bg-cyan-400 dark:bg-rose-950 change-color">
         {/* NAVBAR → always at top, sticky if you scroll */}
         <Navbar />
         {/* MAIN CONTENT → grows to fill remaining space */}

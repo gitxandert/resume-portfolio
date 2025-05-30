@@ -98,7 +98,7 @@ export default function Navbar() {
   return (
   <nav className="sticky top-0 inset-x-0 bg-neutral-900 text-white z-50">
     {/* Centered content */}
-    <div className="max-w-4xl mx-auto flex items-center justify-between py-3 px-4 sm:px-8">
+    <div className="w-full max-w-4xl mx-auto flex items-center justify-between py-3 px-4 sm:px-8">
       <motion.img
         src={logoSrc}
         alt="Logo"
@@ -154,10 +154,10 @@ export default function Navbar() {
                 to={l.to}
                 onClick={handleNavClick}
                 className={
-                  pathname === l.to
-                    ? "text-xl font-semibold border-b-2 border-indigo-400 text-cyan-200"
-                    : "text-xl text-white"
-                }
+                pathname === l.to
+                  ? "font-semibold border-b-2 border-indigo-400 dark:border-red-400 text-cyan-200 dark:text-red-200 inline-block transform transition-all duration-300 ease-out hover:scale-105"
+                  : "hover:text-indigo-300 hover:dark:text-rose-300 text-white inline-block transform transition-all duration-300 ease-out hover:scale-105"
+              }
               >
                 {l.label}
               </Link>

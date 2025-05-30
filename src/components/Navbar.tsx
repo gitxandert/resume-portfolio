@@ -96,8 +96,9 @@ export default function Navbar() {
   }, [pathname])
 
   return (
-    <nav className="sticky top-0 inset-x-0 bg-neutral-900 text-white flex items-center justify-between z-50" style={{ perspective: 800 }}>
-
+  <nav className="sticky top-0 inset-x-0 bg-neutral-900 text-white z-50">
+    {/* Centered content */}
+    <div className="max-w-4xl mx-auto flex items-center justify-between py-3 px-4 sm:px-8">
       <motion.img
         src={logoSrc}
         alt="Logo"
@@ -177,6 +178,7 @@ export default function Navbar() {
           </button>
         </div>
       )}
+      </div>
     </nav>
   )
 }

@@ -11,7 +11,7 @@ export default function App() {
         <Navbar />
         {/* Content wrapper with padding */}
         <div className="flex-1 w-full">
-          <main className="max-w-4xl mx-auto p-4 sm:p-8 pt-12">
+          <main className="w-full max-w-4xl mx-auto p-4 sm:p-8 pt-12">
             <AppRoutes />
           </main>
         </div>

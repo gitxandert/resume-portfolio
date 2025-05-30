@@ -4,7 +4,7 @@ import resume from '../data/resume.json';
 
 export default function Home() {
   return (
-    <section className="max-w-3xl mx-auto p-8">
+    <section className="w-full max-w-3xl mx-auto px-4 sm:px-6 md:px-8 py-8">
       <h1 className="text-4xl font-extrabold text-neutral-900 dark:text-neutral-200 change-color mb-4">
         {resume.name}
       </h1>

@@ -96,10 +96,8 @@ export default function Navbar() {
   }, [pathname])
 
   return (
-    <nav
-      className="sticky top-0 inset-x-0 bg-neutral-900 text-white px-6 py-3 flex items-center justify-between z-50"
-      style={{ perspective: 800 }}
-    >
+    <nav className="sticky top-0 inset-x-0 bg-neutral-900 text-white px-4 sm:px-6 py-3 flex items-center justify-between z-50" style={{ perspective: 800 }}>
+
       <motion.img
         src={logoSrc}
         alt="Logo"

@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Router basename={import.meta.env.BASE_URL}>
       {/* Full-bleed background */}
-      <div className="min-h-dvh w-full bg-cyan-400 dark:bg-rose-950 flex flex-col">
+      <div className="min-h-dvh w-full bg-cyan-400 dark:bg-rose-950 change-color flex flex-col">
         <Navbar />
         {/* Content wrapper with padding */}
         <div className="flex-1 w-full">

@@ -171,7 +171,7 @@ export default function Navbar() {
           {/* Optional: close overlay on click outside */}
           <button
             onClick={() => setMenuOpen(false)}
-            className="top-4 right-6 text-white text-3xl"
+            className="absolute top-4 right-6 text-white text-3xl"
             aria-label="Close menu"
           >
             ×

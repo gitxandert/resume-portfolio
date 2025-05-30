@@ -9,7 +9,6 @@ export default function Projects() {
       <div className="grid sm:grid-cols-2 gap-6">
         {data.map(p => (
           <Card key={p.slug} title={p.name} className="bg-blue-950 dark:bg-rose-400 change-color" titleClassName="text-cyan-100 dark:text-rose-100 change-color">
-            <img src={p.image} alt="" className="rounded mb-3" />
             <p className="mb-2 text-sm text-cyan-200 dark:text-rose-100 change-color">{p.description}</p>
            <div className="flex gap-3 text-sm">
              {Object.entries(p)

@@ -1,4 +1,13 @@
-[
+[ 
+  {
+    "slug": "extractor",
+    "name": "grpr",
+    "year": 2025,
+    "tags": ["Python", "PyTorch", "torchaudio", "UMAP", "Docker"],
+    "description": "Web API that extracts audio embeddings with Wav2Vec2 and reduces them with UMAP.",
+    "image": "/visualizer-thumb.png",
+    "repo": "https://github.com/gitxandert/ml-audio-feature-extractor"
+  },
   {
     "slug": "visualizer",
     "name": "ezvz",

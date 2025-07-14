@@ -1,16 +1,17 @@
 {
   "name": "Alexander Toth",
-  "title": "Software Engineer · Audio-Visual Programmer · Composer",
-  "summary": "C++ / OpenGL developer with a background in computer music and real-time graphics.",
-  "skills": ["C++", "OpenGL", "React", "Python", "Java", "SQL", "Audio DSP"],
+  "title": "Programmer · ML Engineer · Composer",
+  "summary": "Creative systems engineer with a background in music composition.",
+  "skills": ["Python", "C++", "OpenGL", "React", "Java", "SQL", "Audio DSP", "Machine Learning"],
   "experience": [
     {
-      "company": "Indie Projects",
+      "company": "Fyberglass (indie projects)",
       "role": "Lead Developer",
       "years": "2023 – present",
       "bullets": [
+        "Constructed a machine-learning web API with PyTorch and UMAP to analyze and categorize audio files.",
         "Built a real-time audio-reactive visualizer in C++/OpenGL, sustaining 144 FPS.",
-        "Authored cross-platform audio engine (Miniaudio + GLFW + ImGui)."
+        "Authored a machine-learning-generated notation software in Max."
       ]
     },
     {

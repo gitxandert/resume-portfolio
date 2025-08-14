@@ -1,18 +1,27 @@
 [ 
+   {
+    "slug": "llm-powered-learning",
+    "name": "Autodactyl",
+    "year": 2025,
+    "tags": ["Python", "Flask API", "LangChain", "SQLite", "Vite + React", "Docker Compose"],
+    "description": "LLM-powered educational website enabling users to design courses, learn at their own pace, and share their custom-designed courses with the broader LLM-learning community.",
+    "image": "/autodactyl-thumb.png",
+    "repo": "https://github.com/gitxandert/autodactyl"
+  },
   {
     "slug": "extractor",
     "name": "grpr",
     "year": 2025,
-    "tags": ["Python", "PyTorch", "torchaudio", "UMAP", "Docker"],
-    "description": "Web API that extracts audio embeddings with Wav2Vec2 and reduces them with UMAP.",
-    "image": "/visualizer-thumb.png",
+    "tags": ["Python", "PyTorch", "torchaudio", "UMAP", "FAISS", "LangChain", "SQLite", "Docker"],
+    "description": "ML CLI that sorts audio with fine-tuned Wav2Vec2 projection heads and Gaussian Model Mixture, captions audio with an audio captioning model, stores audio metadata in SQLite and a FAISS index, and labels and queries audio with a local LLM via LangChain.",
+    "image": "/grpr-thumb.png",
     "repo": "https://github.com/gitxandert/ml-audio-feature-extractor"
   },
   {
     "slug": "visualizer",
     "name": "ezvz",
     "year": 2025,
-    "tags": ["C++", "OpenGL", "ImGui"],
+    "tags": ["C/C++", "OpenGL", "GLSL", "miniaudio", "ImGui"],
     "description": "Desktop app that maps real-time audio events to GLSL-driven animations.",
     "image": "/visualizer-thumb.png",
     "repo": "https://github.com/gitxandert/ezvz.git"
@@ -45,14 +54,5 @@
     "image": "/bug-thumb.png",
     "repo": "https://github.com/gitxandert/bug-garden",
     "demo": "https://www.youtube.com/watch?v=LKVbb8Y3uPg"
-  },
-  {
-    "slug": "midi-parser",
-    "name": "MIDI Parser",
-    "year": 2024,
-    "tags": ["C++"],
-    "description": "Console app that parses delta-times, interprets MIDI messages, and lists track metadata.",
-    "image": "/midi-thumb.png",
-    "repo": "https://github.com/gitxandert/midi-parser"
   }
 ]

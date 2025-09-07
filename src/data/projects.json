@@ -3,7 +3,7 @@
     "slug": "llm-powered-learning",
     "name": "Autodactyl",
     "year": 2025,
-    "tags": ["Python", "Flask API", "LangChain", "SQLite", "Vite + React", "Docker Compose"],
+    "tags": ["React", "Python", "PostgreSQL", "Redis", "Caddy", "FastAPI", "LangChain", "Docker Compose"],
     "description": "LLM-powered educational website enabling users to design courses, learn at their own pace, and share their custom-designed courses with the broader LLM-learning community.",
     "image": "/autodactyl-thumb.png",
     "repo": "https://github.com/gitxandert/autodactyl"
@@ -21,7 +21,7 @@
     "slug": "visualizer",
     "name": "ezvz",
     "year": 2025,
-    "tags": ["C/C++", "OpenGL", "GLSL", "miniaudio", "ImGui"],
+    "tags": ["C/C++", "OpenGL", "GLSL", "miniaudio", "ImGui", "GLAD", "GLFW"],
     "description": "Desktop app that maps real-time audio events to GLSL-driven animations.",
     "image": "/visualizer-thumb.png",
     "repo": "https://github.com/gitxandert/ezvz.git"
@@ -35,7 +35,16 @@
     "image": "/mlx-thumb.png",
     "repo": "https://github.com/gitxandert/mlx"
   },
-    {
+  {
+    "slug": "midi",
+    "name": "MIDI parser",
+    "year": 2024,
+    "tags": ["C++, MIDI"],
+    "description": "CLI that parses single and multi-track MIDI files into music notation.",
+    "image": "",
+    "repo": "https://github.com/gitxandert/midi-parser"
+  },
+  {
     "slug": "sonfication-website",
     "name": "bodies",
     "year": 2023,
@@ -49,10 +58,11 @@
     "slug": "audiovisual-installation",
     "name": "bug garden",
     "year": 2023,
-    "tags": ["Max, Processing, Computer Vision"],
+    "tags": ["Java, Max, Processing, computer vision"],
     "description": "Audiovisual installation that incorporates computer vision for blob and color tracking.",
     "image": "/bug-thumb.png",
     "repo": "https://github.com/gitxandert/bug-garden",
     "demo": "https://www.youtube.com/watch?v=LKVbb8Y3uPg"
   }
 ]
+

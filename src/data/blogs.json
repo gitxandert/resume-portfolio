@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "firstos",
+    "title": "Building My First OS",
+    "description": "My quest for deep understanding of OS fundamentals has taken a practical turn.",
+    "src_path": "blogs/json/first_os.json",
+    "last_updated": "2025-09-06T11:20:00Z"
+  }
+]

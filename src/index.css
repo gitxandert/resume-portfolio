@@ -59,3 +59,36 @@
 .change-color {
   @apply transition-colors duration-800 ease-out;
 }
+
+/* Blogs.tsx */
+.switch {
+  animation: switchin 1s ease forwards;
+}
+
+.eroo {
+  animation: switchout 0.5s ease forwards;
+}
+
+@keyframes switchin {
+  from {
+    transform: translate(1000px,0px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(0px,0px);
+    opacity: 1;
+  }
+}
+
+@keyframes switchout {
+  from {
+    transform: translate(0px,0px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translate(1000px,0px);
+    opacity: 0;
+  }
+}

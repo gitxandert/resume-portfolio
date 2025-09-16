@@ -14,10 +14,10 @@ export default function Contact() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:alexandertoth96@yahoo.com"
+            href="mailto:alexandertoth96@gmail.com"
             className="contact-link"
           >
-            alexandertoth96@yahoo.com
+            alexandertoth96@gmail.com
           </a>
         </div>
 

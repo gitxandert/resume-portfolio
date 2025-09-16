@@ -24,7 +24,7 @@ export default function Home() {
         <Link to="/projects" className="text-blue-800 dark:text-rose-200 change-color underline">
           projects
         </Link>{' '}
-        to see what I’ve been hacking on.
+        to see how my energy comes to life.
       </p>
     </section>
   );

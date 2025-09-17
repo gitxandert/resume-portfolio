@@ -6,5 +6,13 @@
     "written": "2025-09-09T17:05:00Z",
     "published": "2025-09-06T17:12:00Z",
     "content": "blogs/md/first_os/why_am_i_building_an_os.md"
+  },
+  {
+    "slug": "scope",
+    "title": "Changing scope",
+    "pinned": "False",
+    "written": "2025-09-17T00:47:00Z",
+    "published": "2025-09-17T00:58:00Z",
+    "content": "blogs/md/first_os/changing_scope.md"
   }
 ]

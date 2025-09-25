@@ -14,5 +14,13 @@
     "written": "2025-09-17T00:47:00Z",
     "published": "2025-09-17T00:58:00Z",
     "content": "blogs/md/first_os/changing_scope.md"
+  },
+  {
+    "slug": "comparisons",
+    "title": "Concurrency Comparisons",
+    "pinned": "False",
+    "written": "2025-09-25T03:40:00Z",
+    "published": "2025-09-25T03:58:00Z",
+    "content": "blogs/md/first_os/concurrency_comparisons.md"
   }
 ]

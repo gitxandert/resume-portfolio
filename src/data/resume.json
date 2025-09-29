@@ -2,7 +2,7 @@
   "name": "Alexander Toth",
   "title": "Systems · Machine Learning · Full Stack · Audio DSP",
   "summary": "Multifaceted developer with a background in music composition.",
-  "skills": ["Python", "C/C++", "Bash", "Linux", "OpenGL", "React", "SQL", "Java", "Audio DSP", "Machine Learning"],
+  "skills": ["C", "C++", "Rust", "Python", "Bash", "Linux", "SQL", "React", "Java", "Machine Learning", "DevOps", "Audio DSP"],
   "experience": [
     {
       "company": "Fyberglass (indie projects)",

@@ -1,5 +1,14 @@
-[ 
-   {
+[
+  {
+    "slug": "web-server",
+    "name": "Rust Web Server",
+    "year": 2025,
+    "tags": ["Rust"],
+    "description": "Multithreaded web server built with Rust.",
+    "image": "/server-thumb.png",
+    "repo": "https://github.com/gitxandert/rust-web-server"
+  },
+  {
     "slug": "llm-powered-learning",
     "name": "Autodactyl",
     "year": 2025,
@@ -30,7 +39,7 @@
     "slug": "ml+notation",
     "name": "mlx",
     "year": 2025,
-    "tags": ["Max 9, machine learning, music notation software"],
+    "tags": ["Max 9", "machine learning", "music notation"],
     "description": "Max app that generates musical notation from machine-learned data.",
     "image": "/mlx-thumb.png",
     "repo": "https://github.com/gitxandert/mlx"
@@ -39,7 +48,7 @@
     "slug": "midi",
     "name": "MIDI parser",
     "year": 2024,
-    "tags": ["C++, MIDI"],
+    "tags": ["C++", "MIDI"],
     "description": "CLI that parses single and multi-track MIDI files into music notation.",
     "image": "",
     "repo": "https://github.com/gitxandert/midi-parser"
@@ -48,7 +57,7 @@
     "slug": "sonfication-website",
     "name": "bodies",
     "year": 2023,
-    "tags": ["RNBO, JavaScript, p5.js"],
+    "tags": ["RNBO", "JavaScript", "p5.js"],
     "description": "Interactive website that sonifies RNBO instruments with astronomical data.",
     "image": "/bodies-thumb.png",
     "repo": "https://github.com/gitxandert/bodies",
@@ -58,7 +67,7 @@
     "slug": "audiovisual-installation",
     "name": "bug garden",
     "year": 2023,
-    "tags": ["Java, Max, Processing, computer vision"],
+    "tags": ["Java", "Max", "Processing", "computer vision"],
     "description": "Audiovisual installation that incorporates computer vision for blob and color tracking.",
     "image": "/bug-thumb.png",
     "repo": "https://github.com/gitxandert/bug-garden",

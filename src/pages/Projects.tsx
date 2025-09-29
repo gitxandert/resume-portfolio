@@ -9,6 +9,16 @@ export default function Projects() {
       <div className="grid sm:grid-cols-2 gap-6">
         {data.map(p => (
           <Card key={p.slug} title={p.name} className="bg-blue-950 dark:bg-rose-400 change-color" titleClassName="text-cyan-100 dark:text-rose-100 change-color">
+            <ul className="flex flex-wrap gap-2 mb-4">
+              {p.tags.map(t => (
+                <li
+                  key={t}
+                  className="px-2 py-1 bg-indigo-500 dark:bg-rose-500 text-cyan-200 dark:text-red-100 change-color rounded text-xs tracking-wide"
+                >
+                  {t}
+                </li>
+               ))}
+            </ul>
             <p className="mb-2 text-sm text-cyan-200 dark:text-rose-100 change-color">{p.description}</p>
            <div className="flex gap-3 text-sm">
              {Object.entries(p)

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "web-server",
-    "name": "Rust Web Server",
+    "slug": "systems",
+    "name": "Systems Portfolio",
     "year": 2025,
-    "tags": ["Rust"],
-    "description": "Multithreaded web server built with Rust.",
-    "image": "/server-thumb.png",
-    "repo": "https://github.com/gitxandert/rust-web-server"
+    "tags": ["C", "Rust", "Unix", "Linux", "OS", "Networking"],
+    "description": "Explorations in OS and backend systems.",
+    "image": "/systems-thumb.png",
+    "repo": "https://github.com/gitxandert/systems-portfolio"
   },
   {
     "slug": "llm-powered-learning",
     "name": "Autodactyl",
     "year": 2025,
     "tags": ["React", "Python", "PostgreSQL", "Redis", "Caddy", "FastAPI", "LangChain", "Docker Compose"],
-    "description": "LLM-powered educational website enabling users to design courses, learn at their own pace, and share their custom-designed courses with the broader LLM-learning community.",
+    "description": "LLM-powered educational website with session caching and server authentication.",
     "image": "/autodactyl-thumb.png",
     "repo": "https://github.com/gitxandert/autodactyl"
   },
@@ -22,7 +22,7 @@
     "name": "grpr",
     "year": 2025,
     "tags": ["Python", "PyTorch", "torchaudio", "UMAP", "FAISS", "LangChain", "SQLite", "Docker"],
-    "description": "ML CLI that sorts audio with fine-tuned Wav2Vec2 projection heads and Gaussian Model Mixture, captions audio with an audio captioning model, stores audio metadata in SQLite and a FAISS index, and labels and queries audio with a local LLM via LangChain.",
+    "description": "ML CLI featuring ETL pipeline for audio embedding extraction, storage, and querying.",
     "image": "/grpr-thumb.png",
     "repo": "https://github.com/gitxandert/ml-audio-feature-extractor"
   },
